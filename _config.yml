@@ -8,15 +8,15 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : ML4SE
+title : AgenticSE
 author :
-  name : Maliheh Izadi
+  name : First workshop on Autonomous agents in software engineering
   email : malih.izadi@gmail.com
-  github : malihehizadi
+  github : AgenticSE
   feedburner : nil
 
 # NOTE: Replacing this next line with your own URL
-production_url : https://malihehizadi.github.io/ml4se
+production_url : https://AgenticSE.github.io/ed2025
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
@@ -51,7 +51,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
-  BASE_PATH : https://malihehizadi.github.io/ml4se
+  BASE_PATH : https://AgenticSE.github.io/ed2025
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
