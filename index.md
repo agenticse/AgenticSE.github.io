@@ -74,7 +74,7 @@ AI-powered developer tools and intelligent IDEs, autonomous bots in DevOps workf
 
 ### Format and Dates
 Types of submissions include **full papers, short papers, and late-breaking talk-only (exended abstract)** submissions. 
-- **Paper submission**: Aug 18th, 2025
+- **Paper submission**: Aug 22nd, 2025
 - **Notification Date**: Septmeber 25th, 2025
 - **Camera-ready deadline**: October 5th, 2025
 
@@ -115,3 +115,9 @@ the field.
 
 ### Publication of Proceedings
 We intend for accepted papers to be published in the ASE 2025 workshop proceedings. 
+
+### Submission Link
+Submission site: [https://agenticse2025.hotcrp.com/](https://agenticse2025.hotcrp.com/)
+
+
+ASE workshop track home: [https://conf.researchr.org/track/ase-2025/ase-2025-workshops](https://conf.researchr.org/track/ase-2025/ase-2025-workshops)
