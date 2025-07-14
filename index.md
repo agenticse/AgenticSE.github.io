@@ -42,45 +42,29 @@ and underexplored direction in software engineering.
 
 
 
-### Team
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
-
-  <figure style="text-align: center;">
-    <img src="assets/img/mehdi.jpeg" alt="mehdi" width="200">
-    <figcaption>Mehdi Keshani, Proceeding Chair</figcaption>
-  </figure>
-
-  <figure style="text-align: center;">
-    <img src="assets/img/razvan.webp" alt="razvan" width="200">
-    <figcaption>Razvan Popesuc, Web Chair</figcaption>
-  </figure>
-
-  <figure style="text-align: center;">
-    <img src="assets/img/roham.webp" alt="roham" width="200">
-    <figcaption>Roham Koohestani, Web Chair</figcaption>
-  </figure>
-</div>
-
-
 ### Target Audience
-- Software Engineering (SE): researchers and practitioners interested in AI-driven development, automation, program analysis, testing, maintenance, and DevOps. Artificial Intelligence (AI): those working on LLMs, planning agents, multi-agent systems, and human-AI interaction. Programming Languages (PL): experts in program synthesis, static analysis, compilers, and formal methods who can explore how agents reason about code and specifications.
+- Software Engineering (SE): researchers and practitioners interested in AI-driven development, automation, program analysis, testing, maintenance, and DevOps. 
+
+- Artificial Intelligence (AI): those working on LLMs, planning agents, multi-agent systems, and human-AI interaction. 
+
+- Programming Languages (PL): experts in program synthesis, static analysis, compilers, and formal methods who can explore how agents reason about code and specifications.
 
 - Human-Computer Interaction (HCI): researchers studying how developers interact with AI assistants/agents, UX design
 for AI agents, and cognitive implications of AI partners. Systems and DevOps: practitioners in CI/CD and software infrastructure interested in autonomous agents for environment setup, deployment, monitoring, and optimization.
 
-We expect a mix of academia and industry attendees. Industrial participation is highly encouraged (e.g., teams building
+We expect a mix of academia and industry attendees. **Industrial participation** is highly encouraged (e.g., teams building
 AI-powered developer tools and intelligent IDEs, autonomous bots in DevOps workflows, or automated project management). By drawing from multiple communities (AI, SE, PL, HCI), the workshop promotes diverse viewpoints and networking among groups that do not often overlap, seeding a new collaborative community.
 
 
 ### Format and Dates
-Types of submissions include **full papers, short papers, and late-breaking talk-only (exended abstract)** submissions. 
+Types of submissions include **full papers, short papers, and late-breaking talk-only (exended abstract)** submissions:
+
 - **Paper submission**: Aug 22nd, 2025
 - **Notification Date**: Septmeber 25th, 2025
 - **Camera-ready deadline**: October 5th, 2025
 
 ### Review Procedure
-All submitted papers will undergo peer
-review. Each paper will be reviewed by at least 3 PC members
+All submitted papers will undergo peer-review process. Each paper will be reviewed by at least 3 PC members
 to ensure multiple perspectives. We will follow a double-blind reviewing process. Reviewers will evaluate submissions
 based on relevance to the workshop, technical quality, novelty/originality, and potential to stimulate discussion. Position
 and vision papers might be judged more on insightfulness and
@@ -111,13 +95,35 @@ the field.
 | [Yiling Lou](https://yilinglou.github.io/) | Fudan University | China |
 | [Ziyou Li](http://ziyou.li) | Delft University of Technology |  Netherlands |
 
+### Support Team
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
 
+  <figure style="text-align: center;">
+    <img src="assets/img/mehdi.jpeg" alt="mehdi" width="200">
+    <figcaption>Mehdi Keshani, Proceeding Chair</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="assets/img/razvan.webp" alt="razvan" width="200">
+    <figcaption>Razvan Popescu, Web Chair</figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="assets/img/roham.webp" alt="roham" width="200">
+    <figcaption>Roham Koohestani, Web Chair</figcaption>
+  </figure>
+</div>
 
 ### Publication of Proceedings
-We intend for accepted papers to be published in the ASE 2025 workshop proceedings. 
+We intend for accepted papers to be published in the ASE 2025 workshop proceedings. ASE workshop track home: [https://conf.researchr.org/track/ase-2025/ase-2025-workshops](https://conf.researchr.org/track/ase-2025/ase-2025-workshops).
+
 
 ### Submission Link
 Submission site: [https://agenticse2025.hotcrp.com/](https://agenticse2025.hotcrp.com/)
 
 
-ASE workshop track home: [https://conf.researchr.org/track/ase-2025/ase-2025-workshops](https://conf.researchr.org/track/ase-2025/ase-2025-workshops)
+
+For more info or questions reach out to m[dot]izadi[at]tudelft.nl
+
+
+
