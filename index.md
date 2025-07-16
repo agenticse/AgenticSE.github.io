@@ -60,8 +60,8 @@ AI-powered developer tools and intelligent IDEs, autonomous bots in DevOps workf
 Types of submissions include **full papers, short papers, and late-breaking talk-only (exended abstract)** submissions:
 
 - **Paper submission**: Aug 22nd, 2025
-- **Notification Date**: Septmeber 25th, 2025
-- **Camera-ready deadline**: October 5th, 2025
+- **Notification Date**: Sep 25th, 2025
+- **Camera-ready deadline**: Oct 5th, 2025
 
 ### Review Procedure
 All submitted papers will undergo peer-review process. Each paper will be reviewed by at least 3 PC members
