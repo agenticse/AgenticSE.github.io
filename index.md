@@ -20,7 +20,7 @@ step toward building a community around this transformative
 and underexplored direction in software engineering.
 
 
-### Oraginzing Committee
+### Oraganizing Committee
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
 
   <figure style="text-align: center;">
@@ -57,7 +57,11 @@ AI-powered developer tools and intelligent IDEs, autonomous bots in DevOps workf
 
 
 ### Format and Dates
-Types of submissions include **full papers, short papers, and late-breaking talk-only (exended abstract)** submissions:
+Types of submissions include **full papers, short papers, and late-breaking talk-only (extended abstract)** submissions:
+
+* **Long papers** = 8 pages in IEEEtran two-column formatting
+* **Short papers** = 4 pages in IEEEtran two-column formatting
+* **Talk-only**: Text-only abstract, without a formal publication
 
 - **Paper submission**: Aug 22nd, 2025
 - **Notification Date**: Sep 25th, 2025
