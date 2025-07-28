@@ -82,8 +82,8 @@ the field.
 |------|-------------|-------------|
 | [Ahmed Hassan](https://www.cs.queensu.ca/people/Ahmed%20E./Hassan) | Queen's University | Canada |
 | [Ankit Agrawal](https://ankit.website) | Saint Louis University | USA |
-| [Christoph Treude](https://ctreude.ca/) | Singapore Management University | Singapore |
 | [Chao Peng](https://chao-peng.github.io/) | ByteDance | China |
+| [Christoph Treude](https://ctreude.ca/) | Singapore Management University | Singapore |
 | [Gustavo Soares](https://www.microsoft.com/en-us/research/people/gsoares/) | Microsoft | USA |
 | [He Ye](https://heye.me/) | University of College London | UK |
 | [Iftekhar Ahmed](https://ics.uci.edu/~iftekha/) | University Of California, Irvine | USA |
@@ -93,7 +93,8 @@ the field.
 | [Jingxuan He](https://jxhe.info/) | UC Berkeley | USA |
 | [Jonathan Katzy](http://JKatzy.nl) | Delft University of Technology | Netherlands |
 | [Jürgen  Cito](https://ipa-lab.github.io/) | TU Wien | Austria |
-| [Sarah D'Angelo](https://research.google/people/108096/?&type=google) | Google | New Zealand |
+| [Qinghua Lu](https://people.csiro.au/L/Q/Qinghua-Lu) | CSIRO | New Zealand |
+| [Sarah D'Angelo](https://research.google/people/108096/?&type=google) | Google | Australia |
 | [Timofey Bryksin](https://bryksin.me/) | JetBrains Research | Cyprus |
 | [Tse-Hsun (Peter) Chen](https://petertsehsun.github.io/) | Concordia University | Canada |
 | [Yiling Lou](https://yilinglou.github.io/) | Fudan University | China |
