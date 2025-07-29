@@ -20,7 +20,7 @@ step toward building a community around this transformative
 and underexplored direction in software engineering.
 
 
-### Oraganizing Committee
+### Organizing Committee
 <div align="center" style="display: flex; justify-content: center; gap: 20px;">
 
   <figure style="text-align: center;">
