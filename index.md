@@ -59,13 +59,28 @@ AI-powered developer tools and intelligent IDEs, autonomous bots in DevOps workf
 ### Format and Dates
 Types of submissions include **full papers, short papers, and late-breaking talk-only (extended abstract)** submissions:
 
-* **Long papers** = 8 pages in IEEEtran two-column formatting
-* **Short papers** = 4 pages in IEEEtran two-column formatting
+* **Long papers** = 8 pages (inclduing references) in IEEEtran two-column formatting
+* **Short papers** = 4 pages (inclduing references) in IEEEtran two-column formatting
 * **Talk-only**: Text-only abstract, without a formal publication
 
 - **Paper submission**: Aug 22nd, 2025
 - **Notification Date**: Sep 25th, 2025
 - **Camera-ready deadline**: Oct 5th, 2025
+
+### Topics of Interest
+Topics of Interest include, but are not limited to:
+- Architectures and frameworks for autonomous software engineering agents
+- Multi-agent collaboration in software development environments
+- LLM-powered autonomous development and debugging assistants
+- Self-improving and self-repairing software systems
+- Automated requirements elicitation and refinement via agents
+- Autonomous testing, verification, and validation strategies
+- Human–agent interaction and collaboration in SE workflows
+- Safety, reliability, and trust in agentic software engineering tools
+- Evaluation metrics and benchmarks for autonomous SE agents
+- Ethical, legal, and societal implications of agentic SE tools
+- Case studies and industrial experiences with autonomous agents in SE
+- Tool demonstrations and experimental platforms for agentic SE
 
 ### Review Procedure
 All submitted papers will undergo peer-review process. Each paper will be reviewed by at least 3 PC members
