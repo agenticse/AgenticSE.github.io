@@ -63,9 +63,9 @@ Types of submissions include **full papers, short papers, and late-breaking talk
 * **Short papers** = 4 pages (inclduing references) in IEEEtran two-column formatting
 * **Talk-only**: Text-only abstract, without a formal publication
 
-- **Paper submission**: Aug 22nd, 2025
-- **Notification Date**: Sep 25th, 2025
-- **Camera-ready deadline**: Oct 5th, 2025
+- **Paper submission**: ~~Aug 22nd, 2025~~ **Aug 26th, 2025, 23:59 AOE**
+- **Notification Date**: Sep 25th, 2025, 23:59 AOE
+- **Camera-ready deadline**: Oct 5th, 2025, 23:59 AOE
 
 ### Topics of Interest
 Topics of Interest include, but are not limited to:
