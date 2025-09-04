@@ -72,7 +72,7 @@ We are excited to welcome distinguished speakers who will share their expertise 
 <div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%;">
 
   <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
-    <img src="assets/img/chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;  ">
+    <img src="assets/img/Chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;  ">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance
     </figcaption>
