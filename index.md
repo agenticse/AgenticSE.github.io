@@ -21,26 +21,97 @@ and underexplored direction in software engineering.
 
 
 ### Organizing Committee
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+<!-- <div align="center" style="display: flex; justify-content: center; gap: 10px;">
 
   <figure style="text-align: center;">
-    <img src="assets/img/mali.jpg" alt="mali" width="200">
+    <img src="assets/img/mali.jpg" alt="mali" style="width:30%;">
     <figcaption>Maliheh Izadi, TU Delft</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="assets/img/michael.jpg" alt="michael" width="200">
+    <img src="assets/img/michael.jpg" alt="michael" style="width:30%;">
     <figcaption>Michael Pradel, Stuttgart</figcaption>
   </figure>
 
   <figure style="text-align: center;">
-    <img src="assets/img/satish.jpg" alt="satish" width="200">
+    <img src="assets/img/satish.jpg" alt="satish" style="width:30%;">
     <figcaption>Satish Chandra, Google</figcaption>
+  </figure>
+</div> -->
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/mali.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="https://malihehizadi.github.io/">Maliheh Izadi</a>, TU Delft
+    </figcaption>
+  </figure>
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/michael.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; left; font-weight: bold;">
+      <a href="https://software-lab.org/people/Michael_Pradel.html">Michael Pradel</a>, CISPA
+    </figcaption>
+  </figure>
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/satish.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="https://sites.google.com/site/schandraacmorg/">Satish Chandra</a>, Google
+    </figcaption>
   </figure>
 
 </div>
 
 
+### Speakers
+We are excited to welcome distinguished speakers who will share their expertise on the role of agents in advancing software engineering, offering insights from both research and practice.
+
+<strong><a href="https://chao-peng.github.io/">Dr. Chao Peng</a></strong> is a Principal Research Scientist at ByteDance. He received his PhD degree from The University of Edinburgh. At ByteDance, he leads the Trae Research team, where they conduct research on AI agents for software engineering including the application and evaluation of AI agents, and training LLMs for agents. He is also responsible for academic development and university collaboration. Dr. Chao Peng has published research and industry papers at premier venues including ICSE, FSE, ASE, ACL and serves as a PC member for FSE and ASE.
+
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%;">
+
+  <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;  ">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance
+    </figcaption>
+  </figure>
+
+  <!-- <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/mali.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 50%; ">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      add caption
+    </figcaption>
+  </figure> -->
+
+</div>
+
+
+### Support Team
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/mehdi.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="https://ashkboos.github.io/MyWebsite/">Mehdi Keshani</a><br/>Proceeding Chair
+    </figcaption>
+  </figure>
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/razvan.webp" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="https://razvain.github.io/">Razvan Popescu</a><br/>Web Chair
+    </figcaption>
+  </figure>
+
+  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/roham.webp" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
+      <a href="http://rohamkoohestani.com/">Roham Koohestani</a><br/>Web Chair
+    </figcaption>
+  </figure>
+</div>
 
 ### Target Audience
 - Software Engineering (SE): researchers and practitioners interested in AI-driven development, automation, program analysis, testing, maintenance, and DevOps. 
@@ -61,10 +132,10 @@ Types of submissions include **full papers, short papers, and late-breaking talk
 
 * **Long papers** = 8 pages (inclduing references) in IEEEtran two-column formatting
 * **Short papers** = 4 pages (inclduing references) in IEEEtran two-column formatting
-* **Talk-only**: Text-only abstract, without a formal publication
+* **Talk-only**: Text-only abstract, without a formal publication (no proceedings)
 
 - **Paper submission**: ~~Aug 22nd, 2025~~ **Aug 26th, 2025, 23:59 AOE**
-- **Notification Date**: Sep 25th, 2025, 23:59 AOE
+- **Notification Date**: Sep 26th, 2025, 23:59 AOE
 - **Camera-ready deadline**: Oct 5th, 2025, 23:59 AOE
 
 ### Topics of Interest
@@ -115,24 +186,7 @@ the field.
 | [Yiling Lou](https://yilinglou.github.io/) | Fudan University | China |
 | [Ziyou Li](http://ziyou.li) | Delft University of Technology |  Netherlands |
 
-### Support Team
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
 
-  <figure style="text-align: center;">
-    <img src="assets/img/mehdi.jpeg" alt="mehdi" width="200">
-    <figcaption>Mehdi Keshani, Proceeding Chair</figcaption>
-  </figure>
-
-  <figure style="text-align: center;">
-    <img src="assets/img/razvan.webp" alt="razvan" width="200">
-    <figcaption>Razvan Popescu, Web Chair</figcaption>
-  </figure>
-
-  <figure style="text-align: center;">
-    <img src="assets/img/roham.webp" alt="roham" width="200">
-    <figcaption>Roham Koohestani, Web Chair</figcaption>
-  </figure>
-</div>
 
 ### Publication of Proceedings
 We intend for accepted papers to be published in the ASE 2025 workshop proceedings. ASE workshop track home: [https://conf.researchr.org/track/ase-2025/ase-2025-workshops](https://conf.researchr.org/track/ase-2025/ase-2025-workshops).
