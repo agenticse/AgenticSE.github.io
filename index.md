@@ -69,21 +69,23 @@ We are excited to welcome distinguished speakers who will share their expertise 
 
 <strong><a href="https://chao-peng.github.io/">Dr. Chao Peng</a></strong> is a Principal Research Scientist at ByteDance. He received his PhD degree from The University of Edinburgh. At ByteDance, he leads the Trae Research team, where they conduct research on AI agents for software engineering including the application and evaluation of AI agents, and training LLMs for agents. He is also responsible for academic development and university collaboration. Dr. Chao Peng has published research and industry papers at premier venues including ICSE, FSE, ASE, ACL and serves as a PC member for FSE and ASE.
 
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%;">
+<strong><a href="https://alexandermossin.com/">Alexander Mossin</a></strong> is a software engineer with a passion for building beautiful and intelligent products who is currently at Google Labs, working on the next generation of AI tools. Alexander's primary expertise and interest is building robust distributed systems, ML infrastructure, automated evaluation solutions and data pipelines for AI. His team's mission is to harness cutting-edge AI to revolutionize the usefulness of AI and foundation models. His most recent accomplishments include launching AI-based video dubbing using foundation models and combining information retrieval with deep learning for medical records.
+
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
 
   <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
-    <img src="assets/img/Chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;  ">
+    <img src="assets/img/Chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance
     </figcaption>
   </figure>
 
-  <!-- <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
-    <img src="assets/img/mali.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 50%; ">
+  <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
+    <img src="assets/img/alexandermossin.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto; ">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
-      add caption
+     <a href="https://alexandermossin.com/">Alexander Mossin</a>, Google
     </figcaption>
-  </figure> -->
+  </figure>
 
 </div>
 
