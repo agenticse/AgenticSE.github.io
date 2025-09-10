@@ -71,12 +71,16 @@ We are excited to welcome distinguished speakers who will share their expertise 
 
 <strong><a href="https://alexandermossin.com/">Alexander Mossin</a></strong> is a software engineer with a passion for building beautiful and intelligent products who is currently at Google Labs, working on the next generation of AI tools. Alexander's primary expertise and interest is building robust distributed systems, ML infrastructure, automated evaluation solutions and data pipelines for AI. His team's mission is to harness cutting-edge AI to revolutionize the usefulness of AI and foundation models. His most recent accomplishments include launching AI-based video dubbing using foundation models and combining information retrieval with deep learning for medical records.
 
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%;">
 
   <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
     <img src="assets/img/Chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
-      <a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+      <strong><a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance</strong>
+      <br/>
+      <strong>Title</strong>: Trae Agent: SOTA Open-source AI Coding Agent for SWE-bench
+      <br/>
+      <strong>Abstract</strong>: In this talk, we spotlight Trae Agent’s remarkable achievement of securing the top position on the SWE-bench Verified leaderboard with a 75.2% success rate. Trae Agent, an intelligent LLM-based assistant, has demonstrated exceptional capabilities in autonomously debugging complex issues, implementing robust fixes, and navigating intricate codebases. This session will explore the methodologies behind Trae Agent’s performance, including its innovative patch generation and selection strategies, and the integration of multiple LLMs. Additionally, we will discuss the significance of making Trae Agent open-source, fostering community collaboration, and accelerating the evolution of AI in software development. 
     </figcaption>
   </figure>
 
