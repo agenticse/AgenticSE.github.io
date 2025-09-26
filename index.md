@@ -86,8 +86,12 @@ We are excited to welcome distinguished speakers who will share their expertise 
 
   <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
     <img src="assets/img/alexandermossin.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto; ">
-    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
-     <a href="https://alexandermossin.com/">Alexander Mossin</a>, Google
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+      <strong><a href="https://alexandermossin.com/">Alexander Mossin</a>, Google</strong>
+      <br/>
+      <strong>Title</strong>: Building Jules, Google's first external coding agent
+      <br/>
+      <strong>Abstract</strong>: We explore critical considerations for developing and deploying coding agents at scale in a production environment that has generated over 250k commits to date. We delve into architectural decisions, including interactivity, multi-agent systems, orchestration, state management, security, sandboxing, observability, and effective tool design. We will also address real-world challenges such as debugging, balancing quality with user experience needs (features, latency), and the trade-offs between rapid iteration and careful measurement.
     </figcaption>
   </figure>
 
