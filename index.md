@@ -19,6 +19,8 @@ collaboration, and evaluation. AgenticSE is a timely and essential
 step toward building a community around this transformative
 and underexplored direction in software engineering.
 
+AgenticSE will be held on **November 20, 2025** co-located with ASE'25.
+
 
 ### Organizing Committee
 <!-- <div align="center" style="display: flex; justify-content: center; gap: 10px;">
