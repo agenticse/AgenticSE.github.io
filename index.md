@@ -59,7 +59,7 @@ AgenticSE will be held on **November 20, 2025** co-located with ASE'25.
   <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
     <img src="assets/img/satish.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
-      <a href="https://sites.google.com/site/schandraacmorg/">Satish Chandra</a>, Google
+      <a href="https://sites.google.com/site/schandraacmorg/">Satish Chandra</a>, Meta Platforms, Inc
     </figcaption>
   </figure>
 
