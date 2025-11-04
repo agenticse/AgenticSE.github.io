@@ -40,23 +40,44 @@ AgenticSE will be held on **November 20, 2025** co-located with ASE'25.
     <figcaption>Satish Chandra, Google</figcaption>
   </figure>
 </div> -->
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
+<style>
+  /* Organizing/Program committee tiles: responsive layout */
+  .committee-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; width: 100%; text-align: center; }
+  .committee-grid figure { margin: 0; padding: 10px; box-sizing: border-box; }
+  .committee-grid img { width: 100%; max-width: 320px; height: auto; display: block; margin: 0 auto; }
+  @media (max-width: 900px) {
+    .committee-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 600px) {
+    .committee-grid { grid-template-columns: 1fr; }
+  }
+  /* Program Committee table responsiveness */
+  .responsive-table { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .responsive-table table { width: 100%; border-collapse: collapse; }
+  .responsive-table th, .responsive-table td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; white-space: nowrap; }
+  .responsive-table thead { background: #f7f7f7; }
+  @media (max-width: 700px) {
+    .responsive-table th, .responsive-table td { padding: 6px; }
+  }
+</style>
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+<div class="committee-grid">
+
+  <figure>
     <img src="assets/img/mali.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://malihehizadi.github.io/">Maliheh Izadi</a>, TU Delft
     </figcaption>
   </figure>
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+  <figure>
     <img src="assets/img/michael.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; left; font-weight: bold;">
+    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://software-lab.org/people/Michael_Pradel.html">Michael Pradel</a>, CISPA
     </figcaption>
   </figure>
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+  <figure>
     <img src="assets/img/satish.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://sites.google.com/site/schandraacmorg/">Satish Chandra</a>, Meta Platforms, Inc
@@ -69,55 +90,86 @@ AgenticSE will be held on **November 20, 2025** co-located with ASE'25.
 ### Speakers
 We are excited to welcome distinguished speakers who will share their expertise on the role of agents in advancing software engineering, offering insights from both research and practice.
 
-<strong><a href="https://chao-peng.github.io/">Dr. Chao Peng</a></strong> is a Principal Research Scientist at ByteDance. He received his PhD degree from The University of Edinburgh. At ByteDance, he leads the Trae Research team, where they conduct research on AI agents for software engineering including the application and evaluation of AI agents, and training LLMs for agents. He is also responsible for academic development and university collaboration. Dr. Chao Peng has published research and industry papers at premier venues including ICSE, FSE, ASE, ACL and serves as a PC member for FSE and ASE.
-
 <strong><a href="https://alexandermossin.com/">Alexander Mossin</a></strong> is a software engineer with a passion for building beautiful and intelligent products who is currently at Google Labs, working on the next generation of AI tools. Alexander's primary expertise and interest is building robust distributed systems, ML infrastructure, automated evaluation solutions and data pipelines for AI. His team's mission is to harness cutting-edge AI to revolutionize the usefulness of AI and foundation models. His most recent accomplishments include launching AI-based video dubbing using foundation models and combining information retrieval with deep learning for medical records.
 
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%;">
+<strong><a href="https://www.linkedin.com/in/mehadi-hassen-05306016/">Dr. Mehadi Hassen</a></strong> is a Staff Research Engineer at Google with extensive experience developing and leading AI-powered coding products. He holds a PhD in Computer Science and is the current Research/Modeling Lead for Jules (jules.google.com). He has over a decade of experience studying the intersection of machine learning, coding, and computer security.
 
-  <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
-    <img src="assets/img/Chao.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
-      <strong><a href="https://chao-peng.github.io/">Chao Peng</a>, ByteDance</strong>
-      <br/>
-      <strong>Title</strong>: Trae Agent: SOTA Open-source AI Coding Agent for SWE-bench
-      <br/>
-      <strong>Abstract</strong>: In this talk, we spotlight Trae Agent’s remarkable achievement of securing the top position on the SWE-bench Verified leaderboard with a 75.2% success rate. Trae Agent, an intelligent LLM-based assistant, has demonstrated exceptional capabilities in autonomously debugging complex issues, implementing robust fixes, and navigating intricate codebases. This session will explore the methodologies behind Trae Agent’s performance, including its innovative patch generation and selection strategies, and the integration of multiple LLMs. Additionally, we will discuss the significance of making Trae Agent open-source, fostering community collaboration, and accelerating the evolution of AI in software development. 
-    </figcaption>
-  </figure>
+<strong><a href="https://chao-peng.github.io/">Dr. Chao Peng</a></strong> is a Principal Research Scientist at ByteDance. He received his PhD degree from The University of Edinburgh. At ByteDance, he leads the Trae Research team, where they conduct research on AI agents for software engineering including the application and evaluation of AI agents, and training LLMs for agents. He is also responsible for academic development and university collaboration. Dr. Chao Peng has published research and industry papers at premier venues including ICSE, FSE, ASE, ACL and serves as a PC member for FSE and ASE.
 
-  <figure style="width: 50%; padding: 10px; box-sizing: border-box; margin: 0;">
-    <img src="assets/img/alexandermossin.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto; ">
-    <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
-      <strong><a href="https://alexandermossin.com/">Alexander Mossin</a>, Google</strong>
-      <br/>
+<style>
+  /* Keynotes layout: two side-by-side photos with a shared description; responsive */
+  .keynotes { display: flex; flex-direction: column; gap: 24px; width: 100%; }
+  .keynote-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
+  .keynote-grid.columns-1 { grid-template-columns: 1fr; }
+  .keynote-grid figure { margin: 0; }
+  /* Prevent overly large profile photos while keeping them responsive */
+  .keynote-grid img { width: 100%; max-width: 320px; height: auto; display: block; margin: 0 auto; }
+  .keynote-grid figcaption { margin-top: 8px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; }
+  .keynote-desc { grid-column: 1 / -1; padding: 12px; border: 1px solid #ccc; background-color: #fdfdfd; }
+  @media (max-width: 700px) {
+    .keynote-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="keynotes">
+
+  <!-- Keynote 1: Google (alphabetical among Google): Hassen, Mossin) -->
+  <div class="keynote-grid columns-2">
+    <figure>
+      <img src="assets/img/mehadi.jpg" alt="Portrait of Mehadi Hassen">
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/mehadi-hassen-05306016/">Mehadi Hassen</a></strong>, Google
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="assets/img/alexandermossin.jpg" alt="Portrait of Alexander Mossin">
+      <figcaption>
+        <strong><a href="https://alexandermossin.com/">Alexander Mossin</a></strong>, Google
+      </figcaption>
+    </figure>
+    <div class="keynote-desc">
       <strong>Title</strong>: Building Jules, Google's first external coding agent
       <br/>
       <strong>Abstract</strong>: We explore critical considerations for developing and deploying coding agents at scale in a production environment that has generated over 250k commits to date. We delve into architectural decisions, including interactivity, multi-agent systems, orchestration, state management, security, sandboxing, observability, and effective tool design. We will also address real-world challenges such as debugging, balancing quality with user experience needs (features, latency), and the trade-offs between rapid iteration and careful measurement.
-    </figcaption>
-  </figure>
+    </div>
+  </div>
+
+  <!-- Keynote 2: ByteDance -->
+  <div class="keynote-grid columns-1">
+    <figure>
+      <img src="assets/img/Chao.jpg" alt="Portrait of Chao Peng">
+      <figcaption>
+        <strong><a href="https://chao-peng.github.io/">Chao Peng</a></strong>, ByteDance
+      </figcaption>
+    </figure>
+    <div class="keynote-desc">
+      <strong>Title</strong>: Trae Agent: SOTA Open-source AI Coding Agent for SWE-bench
+      <br/>
+      <strong>Abstract</strong>: In this talk, we spotlight Trae Agent’s remarkable achievement of securing the top position on the SWE-bench Verified leaderboard with a 75.2% success rate. Trae Agent, an intelligent LLM-based assistant, has demonstrated exceptional capabilities in autonomously debugging complex issues, implementing robust fixes, and navigating intricate codebases. This session will explore the methodologies behind Trae Agent’s performance, including its innovative patch generation and selection strategies, and the integration of multiple LLMs. Additionally, we will discuss the significance of making Trae Agent open-source, fostering community collaboration, and accelerating the evolution of AI in software development.
+    </div>
+  </div>
 
 </div>
 
 
 ### Support Team
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; text-align: center">
+<div class="committee-grid">
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+  <figure>
     <img src="assets/img/mehdi.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://ashkboos.github.io/MyWebsite/">Mehdi Keshani</a><br/>Proceeding Chair
     </figcaption>
   </figure>
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+  <figure>
     <img src="assets/img/razvan.webp" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="https://razvain.github.io/">Razvan Popescu</a><br/>Web Chair
     </figcaption>
   </figure>
 
-  <figure style="width: 33.33%; padding: 10px; box-sizing: border-box; margin: 0;">
+  <figure>
     <img src="assets/img/roham.webp" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
       <a href="http://rohamkoohestani.com/">Roham Koohestani</a><br/>Web Chair
@@ -176,27 +228,114 @@ the field.
 
 ### Program Committee
 
-| Name | Affiliation | Country |
-|------|-------------|-------------|
-| [Ahmed Hassan](https://www.cs.queensu.ca/people/Ahmed%20E./Hassan) | Queen's University | Canada |
-| [Ankit Agrawal](https://ankit.website) | Saint Louis University | USA |
-| [Chao Peng](https://chao-peng.github.io/) | ByteDance | China |
-| [Christoph Treude](https://ctreude.ca/) | Singapore Management University | Singapore |
-| [Gustavo Soares](https://www.microsoft.com/en-us/research/people/gsoares/) | Microsoft | USA |
-| [He Ye](https://heye.me/) | University of College London | UK |
-| [Iftekhar Ahmed](https://ics.uci.edu/~iftekha/) | University Of California, Irvine | USA |
-| [Ipek Ozkaya](https://insights.sei.cmu.edu/authors/ipek-ozkaya/) | Carnegie Mellon Software Engineering Institute | USA |
-| [Islem Bouzenia](https://www.software-lab.org/people/Islem_Bouzenia.html) | University of Stuttgart | Germany |
-| [Jie M. Zhang](https://sites.google.com/view/jie-zhang/home) | King's College London | UK |
-| [Jingxuan He](https://jxhe.info/) | UC Berkeley | USA |
-| [Jonathan Katzy](http://JKatzy.nl) | Delft University of Technology | Netherlands |
-| [Jürgen  Cito](https://ipa-lab.github.io/) | TU Wien | Austria |
-| [Qinghua Lu](https://people.csiro.au/L/Q/Qinghua-Lu) | CSIRO | New Zealand |
-| [Sarah D'Angelo](https://research.google/people/108096/?&type=google) | Google | Australia |
-| [Timofey Bryksin](https://bryksin.me/) | JetBrains Research | Cyprus |
-| [Tse-Hsun (Peter) Chen](https://petertsehsun.github.io/) | Concordia University | Canada |
-| [Yiling Lou](https://yilinglou.github.io/) | Fudan University | China |
-| [Ziyou Li](http://ziyou.li) | Delft University of Technology |  Netherlands |
+<div class="responsive-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://www.cs.queensu.ca/people/Ahmed%20E./Hassan">Ahmed Hassan</a></td>
+        <td>Queen's University</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td><a href="https://ankit.website">Ankit Agrawal</a></td>
+        <td>Saint Louis University</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td><a href="https://chao-peng.github.io/">Chao Peng</a></td>
+        <td>ByteDance</td>
+        <td>China</td>
+      </tr>
+      <tr>
+        <td><a href="https://ctreude.ca/">Christoph Treude</a></td>
+        <td>Singapore Management University</td>
+        <td>Singapore</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.microsoft.com/en-us/research/people/gsoares/">Gustavo Soares</a></td>
+        <td>Microsoft</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td><a href="https://heye.me/">He Ye</a></td>
+        <td>University of College London</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td><a href="https://ics.uci.edu/~iftekha/">Iftekhar Ahmed</a></td>
+        <td>University Of California, Irvine</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td><a href="https://insights.sei.cmu.edu/authors/ipek-ozkaya/">Ipek Ozkaya</a></td>
+        <td>Carnegie Mellon Software Engineering Institute</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.software-lab.org/people/Islem_Bouzenia.html">Islem Bouzenia</a></td>
+        <td>University of Stuttgart</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td><a href="https://sites.google.com/view/jie-zhang/home">Jie M. Zhang</a></td>
+        <td>King's College London</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td><a href="https://jxhe.info/">Jingxuan He</a></td>
+        <td>UC Berkeley</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td><a href="http://JKatzy.nl">Jonathan Katzy</a></td>
+        <td>Delft University of Technology</td>
+        <td>Netherlands</td>
+      </tr>
+      <tr>
+        <td><a href="https://ipa-lab.github.io/">Jürgen  Cito</a></td>
+        <td>TU Wien</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td><a href="https://people.csiro.au/L/Q/Qinghua-Lu">Qinghua Lu</a></td>
+        <td>CSIRO</td>
+        <td>New Zealand</td>
+      </tr>
+      <tr>
+        <td><a href="https://research.google/people/108096/?&type=google">Sarah D'Angelo</a></td>
+        <td>Google</td>
+        <td>Australia</td>
+      </tr>
+      <tr>
+        <td><a href="https://bryksin.me/">Timofey Bryksin</a></td>
+        <td>JetBrains Research</td>
+        <td>Cyprus</td>
+      </tr>
+      <tr>
+        <td><a href="https://petertsehsun.github.io/">Tse-Hsun (Peter) Chen</a></td>
+        <td>Concordia University</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td><a href="https://yilinglou.github.io/">Yiling Lou</a></td>
+        <td>Fudan University</td>
+        <td>China</td>
+      </tr>
+      <tr>
+        <td><a href="http://ziyou.li">Ziyou Li</a></td>
+        <td>Delft University of Technology</td>
+        <td>Netherlands</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 
