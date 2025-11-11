@@ -22,6 +22,13 @@ and underexplored direction in software engineering.
 AgenticSE will be held on **November 20, 2025** co-located with ASE'25.
 
 
+<div style="margin: 12px 0 28px;">
+  <a class="btn btn-primary btn-small" href="{{ BASE_PATH }}/pages/program.html">View the Program &amp; Papers</a>
+  <span style="margin-left:8px; color:#666;">Full schedule and accepted papers</span>
+  
+</div>
+
+
 ### Organizing Committee
 <!-- <div align="center" style="display: flex; justify-content: center; gap: 10px;">
 
@@ -114,6 +121,7 @@ We are excited to welcome distinguished speakers who will share their expertise 
 <div class="keynotes">
 
   <!-- Keynote 1: Google (alphabetical among Google): Hassen, Mossin) -->
+  <h2>Morning Keynote</h2>
   <div class="keynote-grid columns-2">
     <figure>
       <img src="assets/img/mehadi.jpg" alt="Portrait of Mehadi Hassen">
@@ -135,6 +143,7 @@ We are excited to welcome distinguished speakers who will share their expertise 
   </div>
 
   <!-- Keynote 2: ByteDance -->
+  <h2>Evening Keynote</h2>
   <div class="keynote-grid columns-1">
     <figure>
       <img src="assets/img/Chao.jpg" alt="Portrait of Chao Peng">
@@ -158,7 +167,7 @@ We are excited to welcome distinguished speakers who will share their expertise 
   <figure>
     <img src="assets/img/mehdi.jpg" alt="x" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; font-weight: bold;">
-      <a href="https://ashkboos.github.io/MyWebsite/">Mehdi Keshani</a><br/>Proceeding Chair
+      <a href="https://mehdikeshani.github.io/PersonalPage/">Mehdi Keshani</a><br/>Proceeding Chair
     </figcaption>
   </figure>
 

@@ -1,0 +1,85 @@
+[
+  {
+    "pid": 41,
+    "title": "Bridging LLM Planning Agents and Formal Methods: A Case Study in Plan Verification",
+    "type_submission": "Short paper",
+    "authors": [
+      { "first": "Keshav", "last": "Ramani", "affiliation": "J.P. Morgan AI Research" },
+      { "first": "Vali", "last": "Tawosi", "affiliation": "JP Morgan AI Research" },
+      { "first": "Salwa", "last": "Alamir", "affiliation": "J.P. Morgan AI Research" },
+      { "first": "Daniel", "last": "Borrajo", "affiliation": "J.P. Morgan AI Research" }
+    ]
+  },
+  {
+    "pid": 54,
+    "title": "PRIMA: Enabling User Agency and Control in Mobile GUI Agent Autonomy",
+    "type_submission": "Talk-only",
+    "authors": [
+      { "first": "Ching-Ting", "last": "Lin", "affiliation": "National Yang Ming Chiao Tung University" },
+      { "first": "Zhi-Hong", "last": "Ye", "affiliation": "National Yang Ming Chiao Tung University" },
+      { "first": "Yung-Ju", "last": "Chang", "affiliation": "National Yang Ming Chiao Tung University" }
+    ]
+  },
+  {
+    "pid": 55,
+    "title": "LLMs in Debate: Does Arguing Make Them Better at Detecting Metamorphic Relations?",
+    "type_submission": "Long paper",
+    "authors": [
+      { "first": "Dibyendu Brinto", "last": "Bose", "affiliation": "Virginia Tech" },
+      { "first": "Yoseph Berhanu", "last": "Alebachew", "affiliation": "Virginia Tech" },
+      { "first": "Chris", "last": "Brown", "affiliation": "Virginia Tech" }
+    ]
+  },
+  {
+    "pid": 61,
+    "title": "A 3-Layer Agentic Model for Nonfunctional Requirements in Software Engineering",
+    "type_submission": "Long paper",
+    "authors": [
+      { "first": "Ehsan", "last": "Zabardast", "affiliation": "Blekinge Institute of Technology" },
+      { "first": "Tiago", "last": "Vieira", "affiliation": "Independent Researcher" },
+      { "first": "Tony", "last": "Gorschek", "affiliation": "Blekinge Institute of Technology" }
+    ]
+  },
+  {
+    "pid": 70,
+    "title": "Leveraging Large Language Models for Cybersecurity Risk Assessment — A Case from Forestry Cyber-Physical Systems",
+    "type_submission": "Long paper",
+    "authors": [
+      { "first": "Fikret Mert", "last": "Gültekin", "affiliation": "Chalmers University of Technology and University of Gothenburg" },
+      { "first": "Oscar", "last": "Lilja", "affiliation": "Chalmers University of Technology and University of Gothenburg" },
+      { "first": "Ranim", "last": "Khojah", "affiliation": "Chalmers University of Technology and University of Gothenburg" },
+      { "first": "Rebekka", "last": "Wohlrab", "affiliation": "Chalmers University of Technology and University of Gothenburg | Carnegie Mellon University" },
+      { "first": "Marvin", "last": "Damschen", "affiliation": "RISE Research Institutes of Sweden" },
+      { "first": "Mazen", "last": "Mohamad", "affiliation": "RISE Research Institutes of Sweden | Chalmers University of Technology and University of Gothenburg" }
+    ]
+  },
+  {
+    "pid": 76,
+    "title": "Transforming Natural Language into Formal Specifications",
+    "type_submission": "Talk-only",
+    "authors": [
+      { "first": "Kuangxiangzi", "last": "Liu", "affiliation": "Volkswagen AG / Saarland University" },
+      { "first": "Alexander", "last": "Liggesmeyer", "affiliation": "CISPA Helmholtz Center for Information Security" },
+      { "first": "Dhiman", "last": "Chakraborty", "affiliation": "Volkswagen AG" },
+      { "first": "Andreas", "last": "Zeller", "affiliation": "CISPA Helmholtz Center for Information Security" }
+    ]
+  },
+  {
+    "pid": 90,
+    "title": "The Last Dependency Crusade: Solving Python Dependency Conflicts with LLMs",
+    "type_submission": "Long paper",
+    "authors": [
+      { "first": "Antony", "last": "Bartlett", "affiliation": "Delft University of Technology" },
+      { "first": "Cynthia C. S.", "last": "Liem", "affiliation": "Delft University of Technology" },
+      { "first": "Annibale", "last": "Panichella", "affiliation": "Delft University of Technology" }
+    ]
+  },
+  {
+    "pid": 99,
+    "title": "AgentGuard: Runtime Verification of AI Agents",
+    "type_submission": "Short paper",
+    "authors": [
+      { "first": "Roham", "last": "Koohestani", "affiliation": "JetBrains Research" }
+    ]
+  }
+]
