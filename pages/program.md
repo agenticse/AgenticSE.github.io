@@ -12,7 +12,7 @@ schedule:
     session: "Session 1"
     type: "keynote"
     title: "Building Jules, Google's first external coding agent"
-    authors_text: "Alexander Mossin; Mehadi Hassen (Google)"
+    authors_text: "Alexander Mossin(Google); Mehadi Hassen (Google)"
 
   - t: "10:00–10:30"
     session: ""
@@ -173,27 +173,21 @@ schedule:
     {% endfor %}
     </tbody>
   </table>
-  <div class="session-badge muted">Note: Session numbers are for flow grouping; buffers allow transitions.</div>
-  <div class="muted">Durations (guideline): Long papers 25 min incl. Q&amp;A; Short &amp; Talk-only 15 min incl. Q&amp;A; Keynotes 60 min; Opening/Closing 15 min.</div>
-  <div class="muted">Workshop date: November 20, 2025 (co-located with ASE’25).</div>
-  <div class="section-divider"></div>
 </div>
 
 ### Accepted Papers
 
-{% assign by_type = apapers | group_by: 'type_submission' | reverse %}
-{% for grp in by_type %}
-
-#### {{ grp.name }}
-
+{% assign sorted = apapers | sort: 'pid' %}
 <div class="paper-list">
-{% assign sorted = grp.items | sort: 'pid' %}
 {% for p in sorted %}
   <h4>{{ p.title }}</h4>
   {% if p.authors %}
     {% capture a_list %}{% endcapture %}
     {% for a in p.authors %}
       {% assign full = a.first | append: ' ' | append: a.last %}
+      {% if a.affiliation %}
+        {% assign full = full | append: ' (' | append: a.affiliation | append: ')' %}
+      {% endif %}
       {% if forloop.first %}
         {% capture a_list %}{{ full }}{% endcapture %}
       {% else %}
@@ -202,7 +196,6 @@ schedule:
     {% endfor %}
     <p class="author-affil">{{ a_list }}</p>
   {% endif %}
+  <br>
 {% endfor %}
 </div>
-<div class="section-divider"></div>
-{% endfor %}
